@@ -63,14 +63,14 @@
               </tr>
             </thead>
             <tbody>
-            {% for liste in ecole %}
+            {% for liste in Etudiants %}
               <tr>
-                <th scope="row">{{liste.Id }}</th>
-                <td>{{liste.Prenom }}</td>
-                <td>{{liste.Nom }}</td>
-                <td>{{liste.Pays }}</td>
-                <td>{{liste.Adresse }}</td>
-                <td>{{liste.Telephone }}</td>
+                <th scope="row">{{ liste.id }}</th>
+                <td>{{ liste.prenom }}</td>
+                <td>{{ liste.nom }}</td>
+                <td>{{ liste.pays }}</td>
+                <td>{{ liste.adresse }}</td>
+                <td>{{ liste.telephone }}</td>
               </tr>
             {% endfor %}
             </tbody>
