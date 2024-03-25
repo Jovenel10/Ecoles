@@ -63,10 +63,9 @@
               </tr>
             </thead>
             <tbody>
-            {% for list in ecole %}
+            {% for liste in ecole %}
               <tr>
-                <th scope="row">1</th>
-                <td>{{liste.Id }}</td>
+                <th scope="row">{{liste.Id }}</th>
                 <td>{{liste.Prenom }}</td>
                 <td>{{liste.Nom }}</td>
                 <td>{{liste.Pays }}</td>
@@ -75,7 +74,7 @@
               </tr>
             {% endfor %}
             </tbody>
-          </table>
+        </table>
         
      
         
