@@ -8,4 +8,4 @@ def affichage(request):
    ecole=Etudiants.objects.all()
    #return HttpResponse(Etudiants)
 
-   return render(request, 'index.html', {'Etudiants':ecole})
+   return render(request, {'Etudiants':ecole})
